@@ -18,7 +18,7 @@ public class Connection_getter
 
             String username="root";
             String password="itsmehardik.com";
-            String url="jdbc:mysql::/localhost:3306/mydog";
+            String url="jdbc:mysql::/localhost:3306/student_manage";
             con= DriverManager.getConnection(url,username,password);
         }
         catch(Exception e)

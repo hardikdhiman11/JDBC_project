@@ -32,7 +32,7 @@ public class START
 
                 Student1 st = new Student1(name,phone,city);
                 boolean answer =Student_dao.insert_student_to_db(st);
-                if(answer==true)
+                if(answer)
                 {
                     System.out.println("Student successfully added");
                 }
